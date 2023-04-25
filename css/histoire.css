@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'DWFont';
+    src: url('../Fonts/Doctor-Who.ttf') format('truetype');
+}
+
+
+body {
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(212, 202, 202);
+}
+
+section {
+    display:grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 15% 70% 15%;
+    grid-template-areas: "head head"
+                          "gau texte"
+                          "foot foot";
+    height: 1000px;
+    width: 100%;
+    
+
+}
+
+.head {
+    grid-area: head;
+    background-color: #003b6f;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 4px solid white;
+
+}
+
+.head h1 {
+    color: white;
+    font-size: 4em;
+    font-family: 'DWFont';
+}
+
+.leftside {
+    grid-area: gau;
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+
+.leftside img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#i1 {
+    display: block;
+}
+
+#i2, #i3 {
+    display: none;
+}
+
+.texte {
+    grid-area: texte;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#menud1, #menud2 {
+    height: 50%;
+    margin: 10px;
+    background-color: #003b6f;
+    color: white;
+    text-align: center;
+    border-radius: 20%;
+    width: 20%;
+}
+
+.infos {
+    width: 90%;
+    height: 80%;
+    border: #003b6f solid 3px;
+}
+
+
+.footer {
+    grid-area: foot;
+    background-color: chartreuse;
+}
+
+#box1 {
+    width: 100%;
+    height: 100%;
+    color: #003b6f;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.box1 {
+    flex-direction: column;
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.T1963 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+
+.T1963 p {
+    color: #003b6f;
+    font-size: 3em;
+    text-align: center;
+}
+
+.B1963 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    height: 10%;
+}
+
+#bpp1, #bps1, #return {
+    width: 20%;
+    border: black 2px solid;
+    background-color: gainsboro;
+}
+#pp1 {
+    display: block;
+}
+
+#pp2, #pp3, #pp4, #pp5 {
+
+    display: none;
+}
+
+#ps1 {
+    display: block;
+}
+#ps2, #ps3, #ps4, #ps5 {
+    display: none;
+}
+
+.box2 {
+    flex-direction: column;
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.T2005 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+
+.T2005 p {
+    color: #003b6f;
+    font-size: 3em;
+}
+
+.B2005 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    height: 10%;
+}
+
+#bpp2, #bps2, #return2 {
+    width: 20%;
+    border: black 2px solid;
+    background-color: gainsboro;
+}
+
+.box3 {
+    flex-direction: column;
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.docteur {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+
+.docteur p {
+    color: #003b6f;
+    font-size: 3em;
+}
+
+.Bdocteur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    height: 10%;
+}
+
+#bpp3, #bps3, #return3 {
+    width: 20%;
+    border: black 2px solid;
+    background-color: gainsboro;
+}
+
+#pd1 {
+    display: block;
+}
+
+#pd2, #pd3, #pd4, #pd5, #pd6, #pd7, #pd8, #pd9, #pd10, #pd11, #pdg, #pd12, #pd13, #pd14 {
+    display: none;
+}

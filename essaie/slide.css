@@ -1,0 +1,22 @@
+.leftside {
+     grid-area: gau;
+    width: 300px;
+    height: 700px;
+    margin:0;
+    padding: 0;
+}
+
+.leftside img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#i1 {
+    display: block;
+}
+
+#i2, #i3 {
+    display: none;
+}
